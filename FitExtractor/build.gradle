@@ -1,0 +1,17 @@
+apply plugin: 'java'
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile(group: 'commons-io', name: 'commons-io', version: '2.5')
+}
+
+jar {
+ 	manifest {
+		attributes 'Main-Class' : 'com.koheik.FitExtractor'
+	}
+}

@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410221B61EAB449800CF0114 /* DebTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410221B51EAB449800CF0114 /* DebTrack.swift */; };
+		4110EFAF1EAB42730057EEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110EFAE1EAB42730057EEA3 /* AppDelegate.swift */; };
+		4110EFB11EAB42730057EEA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110EFB01EAB42730057EEA3 /* ViewController.swift */; };
+		4110EFB31EAB42730057EEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4110EFB21EAB42730057EEA3 /* Assets.xcassets */; };
+		4110EFB61EAB42730057EEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4110EFB41EAB42730057EEA3 /* Main.storyboard */; };
+		4110EFC81EAB438C0057EEA3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110EFC71EAB438C0057EEA3 /* MapViewController.swift */; };
+		4110EFCA1EAB43B20057EEA3 /* MonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110EFC91EAB43B20057EEA3 /* MonitorViewController.swift */; };
+		41E587911EAB6D97003BA3C3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E587901EAB6D97003BA3C3 /* MapKit.framework */; };
+		41E62B021EAC63280045BAAF /* ConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E62B011EAC63280045BAAF /* ConsoleViewController.swift */; };
+		C4F8078BC95E059128A9CDE0 /* Pods_Debriefing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A070200B01F930A7C9C7276 /* Pods_Debriefing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41AFC89C1EAC823700FF91A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AE970195A01413CA5C20F59 /* Pods-Debriefing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debriefing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Debriefing/Pods-Debriefing.debug.xcconfig"; sourceTree = "<group>"; };
+		2A070200B01F930A7C9C7276 /* Pods_Debriefing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Debriefing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410221B51EAB449800CF0114 /* DebTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebTrack.swift; sourceTree = "<group>"; };
+		410221E31EAB49DA00CF0114 /* Debriefing-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Debriefing-Bridging-Header.h"; sourceTree = "<group>"; };
+		4110EFAB1EAB42730057EEA3 /* Debriefing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debriefing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4110EFAE1EAB42730057EEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4110EFB01EAB42730057EEA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4110EFB21EAB42730057EEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4110EFB51EAB42730057EEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4110EFB71EAB42730057EEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4110EFC71EAB438C0057EEA3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4110EFC91EAB43B20057EEA3 /* MonitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorViewController.swift; sourceTree = "<group>"; };
+		41B8DAE80D455B858BDE13A4 /* Pods-Debriefing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debriefing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Debriefing/Pods-Debriefing.release.xcconfig"; sourceTree = "<group>"; };
+		41E587901EAB6D97003BA3C3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		41E62B011EAC63280045BAAF /* ConsoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4110EFA81EAB42730057EEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E587911EAB6D97003BA3C3 /* MapKit.framework in Frameworks */,
+				C4F8078BC95E059128A9CDE0 /* Pods_Debriefing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4110EFA21EAB42730057EEA3 = {
+			isa = PBXGroup;
+			children = (
+				410221E31EAB49DA00CF0114 /* Debriefing-Bridging-Header.h */,
+				4110EFAD1EAB42730057EEA3 /* Debriefing */,
+				4110EFAC1EAB42730057EEA3 /* Products */,
+				4110EFBD1EAB43350057EEA3 /* Frameworks */,
+				6CBA87A10E9E05208FC9A186 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4110EFAC1EAB42730057EEA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4110EFAB1EAB42730057EEA3 /* Debriefing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4110EFAD1EAB42730057EEA3 /* Debriefing */ = {
+			isa = PBXGroup;
+			children = (
+				4110EFAE1EAB42730057EEA3 /* AppDelegate.swift */,
+				4110EFB01EAB42730057EEA3 /* ViewController.swift */,
+				4110EFB21EAB42730057EEA3 /* Assets.xcassets */,
+				4110EFB41EAB42730057EEA3 /* Main.storyboard */,
+				4110EFB71EAB42730057EEA3 /* Info.plist */,
+				4110EFC71EAB438C0057EEA3 /* MapViewController.swift */,
+				4110EFC91EAB43B20057EEA3 /* MonitorViewController.swift */,
+				410221B51EAB449800CF0114 /* DebTrack.swift */,
+				41E62B011EAC63280045BAAF /* ConsoleViewController.swift */,
+			);
+			path = Debriefing;
+			sourceTree = "<group>";
+		};
+		4110EFBD1EAB43350057EEA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E587901EAB6D97003BA3C3 /* MapKit.framework */,
+				2A070200B01F930A7C9C7276 /* Pods_Debriefing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CBA87A10E9E05208FC9A186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AE970195A01413CA5C20F59 /* Pods-Debriefing.debug.xcconfig */,
+				41B8DAE80D455B858BDE13A4 /* Pods-Debriefing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4110EFAA1EAB42730057EEA3 /* Debriefing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4110EFBA1EAB42730057EEA3 /* Build configuration list for PBXNativeTarget "Debriefing" */;
+			buildPhases = (
+				DD20F4A1DC63D12A17A387C3 /* [CP] Check Pods Manifest.lock */,
+				4110EFA71EAB42730057EEA3 /* Sources */,
+				4110EFA81EAB42730057EEA3 /* Frameworks */,
+				4110EFA91EAB42730057EEA3 /* Resources */,
+				41AFC89C1EAC823700FF91A7 /* Embed Frameworks */,
+				89351D6AD6DB1D9035E2896D /* [CP] Embed Pods Frameworks */,
+				B09C3CBCA8A52CA069695AD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Debriefing;
+			productName = Debriefing;
+			productReference = 4110EFAB1EAB42730057EEA3 /* Debriefing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4110EFA31EAB42730057EEA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = koheik.com;
+				TargetAttributes = {
+					4110EFAA1EAB42730057EEA3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Y6SCUW5R5R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4110EFA61EAB42730057EEA3 /* Build configuration list for PBXProject "Debriefing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4110EFA21EAB42730057EEA3;
+			productRefGroup = 4110EFAC1EAB42730057EEA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4110EFAA1EAB42730057EEA3 /* Debriefing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4110EFA91EAB42730057EEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110EFB31EAB42730057EEA3 /* Assets.xcassets in Resources */,
+				4110EFB61EAB42730057EEA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89351D6AD6DB1D9035E2896D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debriefing/Pods-Debriefing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09C3CBCA8A52CA069695AD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debriefing/Pods-Debriefing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD20F4A1DC63D12A17A387C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4110EFA71EAB42730057EEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E62B021EAC63280045BAAF /* ConsoleViewController.swift in Sources */,
+				4110EFB11EAB42730057EEA3 /* ViewController.swift in Sources */,
+				4110EFCA1EAB43B20057EEA3 /* MonitorViewController.swift in Sources */,
+				410221B61EAB449800CF0114 /* DebTrack.swift in Sources */,
+				4110EFC81EAB438C0057EEA3 /* MapViewController.swift in Sources */,
+				4110EFAF1EAB42730057EEA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4110EFB41EAB42730057EEA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4110EFB51EAB42730057EEA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4110EFB81EAB42730057EEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4110EFB91EAB42730057EEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4110EFBB1EAB42730057EEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE970195A01413CA5C20F59 /* Pods-Debriefing.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y6SCUW5R5R;
+				HEADER_SEARCH_PATHS = "\"$(PODS_ROOT)/\"/**";
+				INFOPLIST_FILE = Debriefing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koheik.Debriefing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Debriefing-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4110EFBC1EAB42730057EEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B8DAE80D455B858BDE13A4 /* Pods-Debriefing.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y6SCUW5R5R;
+				HEADER_SEARCH_PATHS = "\"$(PODS_ROOT)/\"/**";
+				INFOPLIST_FILE = Debriefing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koheik.Debriefing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4110EFA61EAB42730057EEA3 /* Build configuration list for PBXProject "Debriefing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4110EFB81EAB42730057EEA3 /* Debug */,
+				4110EFB91EAB42730057EEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4110EFBA1EAB42730057EEA3 /* Build configuration list for PBXNativeTarget "Debriefing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4110EFBB1EAB42730057EEA3 /* Debug */,
+				4110EFBC1EAB42730057EEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4110EFA31EAB42730057EEA3 /* Project object */;
+}
