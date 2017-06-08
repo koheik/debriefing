@@ -1,7 +1,6 @@
 # Debriefing
 
-Debriefing is an application for analyzing GPS tracks from dinghies. It allows you to find a track interval of interest easily and summersize the stats of the interval.
-
+Debriefing is an application for analyzing GPS tracks from dinghies. It allows you to find a track interval of interest easily and summarize the stats of the interval.
 
 ## License
  
